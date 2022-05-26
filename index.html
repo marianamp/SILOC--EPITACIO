@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>SILOC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body id="background">
+    <center>
+    
+    <div class="wrapper" class="col-sm">
+        <div class="row">
+            <img src="itep.png" id="itep">
+            <h1>INSTITUTO TÉCNICO-CIENTÍFICO DE PERÍCIA - ITEP/RN</h1>
+            <img src="itep.png" id="pseudo">
+        </div>
+        <br>
+        <div class="row2">
+            <h2>SILOC - SISTEMA INTEGRADO DE LOCALIZAÇÃO DE CADÁVERES</h2>
+        </div>
+        <br>
+        <div class="row2">
+            <input type="text" placeholder="Pesquisar cadaver pelo NIC">
+            <button class="glyphicon glyphicon-search" onclick="buscar()"></button>
+        </div>
+        <br>
+        <div class="row2">
+            <h3>Visualizar Geladeiras</h3>
+        </div>   
+        <br>
+        <div class="row2">
+            <h5>Clique na geladeira ao qual você deseja visualizar a ocupação</h5>
+        </div>    
+    </div>
+        
+        <footer>
+            <h5 id="version">Versão 1.0 Beta</h5>
+            <div id="myCarousel" class="carousel slide" >
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <h4>Necrotério</h4>
+                        <img src="necroterio.jpeg" class="image">
+                    </div>
+    
+                    <div class="item">
+                        <h4>Corredor</h4>
+                        <img src="corredor.jpeg" class="image">
+                    </div>
+    
+                    <div class="item">
+                        <h4>Pátio</h4>
+                        <img src="" class="image">
+                    </div>
+                </div>
+    
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev" id="left_control">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                
+                <a class="right carousel-control" href="#myCarousel" data-slide="next" id="right_control">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div> 
+            <img id="img_sesed"src="sesed.png">          
+        </footer>     
+    </center>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
